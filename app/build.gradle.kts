@@ -67,4 +67,7 @@ dependencies {
     implementation(libs.androidx.lifecycle.livedata.ktx)
 
     implementation(libs.koin.android)
+
+    // From Module Core
+    implementation(project(":core"))
 }

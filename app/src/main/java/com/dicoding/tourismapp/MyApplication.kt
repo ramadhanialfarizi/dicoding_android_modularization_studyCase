@@ -15,7 +15,7 @@ class MyApplication : Application() {
             androidContext(this@MyApplication)
             modules(
                 listOf(
-                    databaseModule,
+                    _root_ide_package_.com.dicoding.tourismapp.core.di.databaseModule,
                     networkModule,
                     repositoryModule,
                     useCaseModule,
